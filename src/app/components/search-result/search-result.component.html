@@ -1,0 +1,15 @@
+<div class="card">
+
+    <div class="card-title">
+        <div>{{item?.Title}}</div>
+        <div style="margin-left: auto">{{item?.Year}}</div>
+    </div>
+    <div class="image-container">
+        <img [src]="item?.Poster" alt="pic">
+    </div>
+    <!-- <button aria-label="Close" (click)="switchLabelVisibility()">{{buttonHeader}}</button> -->
+
+    <div class="button-container">
+        <button mat-button color="primary" title="This button supports displaying a label 'Click me'">Click me</button>
+    </div>
+</div>

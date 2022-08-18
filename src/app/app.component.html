@@ -1,1 +1,13 @@
-<h2>Ensemble Task</h2>
+<div class="app-container">
+    <div class="task-title">Ensemble Movie Search Task</div>
+    <div class="search-block">
+        <label class="search-label" for="searchInput">Eneter at least 3 characters to search for movies by
+            title:</label>
+        <input type="text" id="searchInput" style="width: 200px"
+            [(ngModel)]="value"
+            (ngModelChange)="valueChanged()">
+    </div>
+    <div class="result-wrapper">
+    </div>
+        <app-search-result *ngFor="let x of searchResultItems" [item]="x"></app-search-result>
+</div>
