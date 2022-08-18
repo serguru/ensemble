@@ -11,7 +11,7 @@ Features implemented:
 - used debounce to reduce requests to the API, see setSearch function in app.component.ts;
 - used Observables throughout the project;
 - used CSS to arrange search result on the page;
-- the task requirement "... Clicking the button should do nothing but it should support displaying a label" is not clear so it was implemented as a button's title - tooltip. To see it just hover the mouse over the button "Click me"
+- the task requirement "... Clicking the button should do nothing but it should support displaying a label" was not clear so it was implemented as a button's title - tooltip. To see it just hover the mouse over the button "Click me"
 
 What could be done to improve this app:
 
